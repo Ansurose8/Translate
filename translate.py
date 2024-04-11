@@ -2,7 +2,7 @@ import streamlit as st
 from googletrans import Translator
 
 st.header ('Machine Translation Demo')
-input = st.text_input("Enter text to text",valu="")
+input = st.text_area("Enter text to text",value="")
 option = st.selectbox(
     'To which language you want to translate the text to?',
     ('Malayalam','Hindi','Tamil'))
